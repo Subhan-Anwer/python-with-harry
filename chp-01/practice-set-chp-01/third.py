@@ -1,3 +1,4 @@
-import os
-
-os.listdir("D:\GSIT\Python\code-with-harry\chp-01\practice-set-chp-01")
+import pyttsx3
+engine = pyttsx3.init()
+engine.say("Hello, I am a text-to-speech engine.")
+engine. runAndWait( )
